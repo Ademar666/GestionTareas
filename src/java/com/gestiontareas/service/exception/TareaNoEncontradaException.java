@@ -1,4 +1,7 @@
 package java.com.gestiontareas.service.exception;
 
-public class TareaNoEncontradaException {
+public class TareaNoEncontradaException extends Exception {
+    public TareaNoEncontradaException(String mensaje) {
+        super(mensaje);
+    }
 }
